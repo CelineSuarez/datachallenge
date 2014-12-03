@@ -11,7 +11,8 @@ class DatabaseSeeder extends Seeder {
 	{
 		Eloquent::unguard();
 
-		// $this->call('UserTableSeeder');
+		$file = File::get('../../data/Environmental_Data_2001.txt');
+		$jsonfile = json_decode($file);
 	}
 
 }

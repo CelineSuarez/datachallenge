@@ -1,5 +1,5 @@
 <?php
-ini_set('max_execution_time', 0);
+/*ini_set('max_execution_time', 0);
 	for ($year = 2001; $year <= 2010; $year++){
 		
 		//you get the index of $w by going through the raw data and
@@ -31,7 +31,7 @@ ini_set('max_execution_time', 0);
 		}
 		fclose($file);
 	};
-
+*/
 	
 echo "Hello";
 
